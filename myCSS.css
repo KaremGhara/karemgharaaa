@@ -1,0 +1,314 @@
+#header{
+    padding: 2% -80%;
+}
+.container-fluid {
+    background:#FFF;
+}
+body{
+    background-color: white;
+}
+ #skills:hover {
+    opacity:0.8;
+}
+#fontIcons{
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#fontIcons a{
+    text-decoration: none;
+}
+.Icon.far:hover{
+    transform: scale(1.05);
+    color: brown;
+}
+.Icon.fab:hover{
+    transform: scale(1.05);
+    color: #04009a;
+}
+
+.Icon{
+    margin-left: 5%;
+}
+#Skills{
+    padding: 3% 3%;
+}
+#intro{
+    padding: 5% 5%;
+}
+
+.footerHeading{
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3%;
+    font-weight: bold;
+    
+
+}
+.contactRow{
+    padding: 1%;
+}
+.footerWork{
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 3%;
+    
+}
+.semi-circle { 
+  position: absolute;
+  transform: translate(-30%, -50%);
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #4169E1;
+ 
+} 
+.image-circle { 
+    position: absolute;
+  margin: 0% 20% 20% 20%;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #4169E1;
+   
+  } 
+  .image2-circle { 
+ position: absolute;
+  margin: 0% 20% 20% 47%;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #4169E1;
+   
+  } 
+.skill-circle { 
+    position: absolute;
+    transform: translate(-100%, -10%);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #4169E1;
+   
+  }
+  
+  .proj-circle{
+    position: absolute;
+    transform: translate(-80%, 10%);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #4169E1;
+
+  }
+  
+  .projectsRow{
+      margin-top: 50px;
+  }
+  .arrows{
+      margin-left: 50%;
+      margin-top: 7%;
+      color:#4169E1 ;
+
+  }
+  .arrows:hover{
+      color: black;
+  }
+  .aboutPara{
+      font-size: 3rem;
+  }
+  .nameHeader{
+    color: #4169E1;
+    font-size: 6rem;
+    margin-top: 10%;
+  } 
+.row .icon a{
+    display: inline-block;
+    margin: 10%;
+    position: relative;
+}
+.Icon{
+    position: relative;
+    margin-bottom: 10%;
+}
+.icon{
+    padding: 0 30%;
+}
+.fab{
+    width: 100%;
+}
+span{
+	vertical-align:top;
+	width:200px;
+    margin-left: 500px;
+    margin-bottom: 110px;
+    display: inline-block;
+}
+
+.linkedIn:hover{
+    transform: scale(1.05);
+    color: #04009a;
+}
+.envolpeIcon{
+    color: black;
+    
+}
+.envolpeIcon:hover{
+    transform: scale(1.05);
+    color: brown;
+
+    
+}
+.linkedIn2{
+    text-align: center;
+    margin-left: 20%;
+    margin: 2%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #4169E1;
+    font-family: 'Montserrat', sans-serif;
+}
+#projects{
+    padding: 2% 2%;
+}
+.projImg{
+    height: 50%;
+}
+.gitIcon{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.myPic{
+    position:absolute;
+    margin: 3%;
+    width: 16%;
+    border-radius: 70%;
+    margin-right: 10%;
+}
+
+
+.card-title{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 4%;
+}
+.desc{
+    font-size: 1.3rem;
+    margin: 3%;
+    line-break: 1;
+}
+ .row.frontRow{
+     margin-top: 10%;
+}
+.nav-link{
+    color:black;
+}
+#skills{
+    padding: 3% 1%;
+}
+.skills img{
+    padding: 1%;
+    width: 30%;
+}
+.gitIcon:hover{
+    transform: scale(1.05);
+    color: firebrick;
+
+}
+.card:hover{
+    transform: scale(1.07);
+    box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+
+}
+.nav-item{
+    font-size: 1.3rem;
+    width: 10%;
+    height: 10%;
+    font-family: "Roboto Mono";
+
+}
+.navbar-brand{
+    color: #fff;
+    font-family: "Roboto Mono";
+    font-size: 2rem;
+
+}
+
+.row{
+    text-align: center;
+}
+
+.footerText{
+    margin-top: 20%;
+    padding-top: 4%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 30px;
+}
+
+.skillsHeader{
+    text-align: center;
+    font-size: 3.5rem;
+    color: black;
+    font-weight: bold;
+    padding: 2% 2%;
+}
+
+.semi2-circle
+{
+  position:absolute;
+  transform: translate(150%, 190%);
+  width: 300px;
+  height: 150px;
+  border-radius: 150px 150px 0px 0px;
+  background-color: #4169E1;
+
+
+}
+.copyRight{
+    text-align: center;
+    margin-left: 100px;
+    color: grey;
+    font-size: 1rem;
+}
+
+@media (max-width:1028px) {
+    .nav-item{
+        margin: 7%;
+        font-size:1rem ;
+    }
+    .semi-circle{
+        width: 70px;
+        height: 70px;
+    }
+    .image-circle{
+         width:200px;
+        height: 200px; 
+    }
+    .image2-circle{
+        visibility: hidden;
+       
+
+    }
+    .myPic.pic{
+        width: 30%;
+        margin-right: 10px;
+
+
+    }
+    .copyRight{
+        margin-right: 70px;
+    }
+    nav{
+        position: fixed;
+    }
+    
+    .myPic{
+        position: relative;
+        width: 50%;
+        margin-top: 5%;
+    }
+}
