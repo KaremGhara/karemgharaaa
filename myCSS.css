@@ -86,7 +86,7 @@ body{
   } 
 .skill-circle { 
     position: absolute;
-    transform: translate(-100%, -10%);
+    transform: translate(-130%, -10%);
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -96,7 +96,7 @@ body{
   
   .proj-circle{
     position: absolute;
-    transform: translate(-80%, 10%);
+    transform: translate(-110%, 10%);
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -243,6 +243,8 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 20%;
     padding-top: 4%;
     text-align: center;
+    align-self: center;
+    justify-self: center;
     margin-left: 10%;
     margin-right: 30px;
 }
@@ -290,6 +292,9 @@ h1,h2,h3,h4,h5,h6{
        
 
     }
+    .proj-circle{
+        transform: translate(-100%, 10%);
+    }
     .myPic.pic{
         width: 40%;
         margin-right: 10px;
@@ -303,10 +308,19 @@ h1,h2,h3,h4,h5,h6{
         position: fixed;
     }
     
+   
+    
     .myPic{
         position: static;
         width: 60%;
         margin-top: 5%;
         margin-left: 10%;
+    }
+  
+}
+
+@media(min-width:2000px){
+    .footerText{
+        margin-right: 140px;
     }
 }
